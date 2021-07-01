@@ -16,7 +16,7 @@ class MainWindow(QMainWindow):
     def __init__(self,*args,**kwargs):
         super().__init__(*args,**kwargs)
        
-        self.setWindowTitle("Kerberos Web Browser")
+        self.setWindowTitle("Web Browser")
         self.setWindowIcon(QIcon("logo.png"))
         self.setMinimumSize(500,500)
         self.showMaximized()       
